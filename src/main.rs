@@ -3,12 +3,8 @@ use itertools::Itertools;
 use std::convert::TryInto;
 use log::info;
 
-// const WIDTH: usize = 5;
-// const HEIGHT: usize = 4;
-// const NUM_BOMBS: usize = 4;
-
-const WIDTH: usize = 4;
-const HEIGHT: usize = 5;
+const WIDTH: usize = 5;
+const HEIGHT: usize = 4;
 const NUM_BOMBS: usize = 4;
 
 #[derive(Copy, Clone, Debug, Hash, Eq, PartialEq)]
